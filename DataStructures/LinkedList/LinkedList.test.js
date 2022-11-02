@@ -1,4 +1,4 @@
-const testImpl = require("./IListTester");
+const testImpl = require("../IListTester");
 const LinkedList = require("./LinkedList");
 
 testImpl(LinkedList);

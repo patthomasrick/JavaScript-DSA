@@ -1,4 +1,4 @@
-const IList = require("./IList");
+const IList = require("../IList");
 
 class Node {
     prev = null;
