@@ -26,7 +26,7 @@ test("Add/Contains", () => {
 
     tree.add(5);
     expect(tree.contains(5)).toBe(true);
-})
+});
 
 test("Height", () => {
     let tree = new BinarySearchTree();
@@ -39,5 +39,20 @@ test("Height", () => {
     expect(tree.height()).toBe(2);
     tree.add(20);
     expect(tree.height()).toBe(3);
-})
+});
 
+test("BFS", () => {
+    let tree = new BinarySearchTree();
+    tree.add(10);
+    tree.add(5);
+    tree.add(15);
+    expect(tree.bfs()).toStrictEqual([10, 5, 15]);
+});
+
+test("DFS", () => {
+    let tree = new BinarySearchTree();
+    tree.add(10);
+    tree.add(5);
+    tree.add(15);
+    expect(tree.dfs()).toStrictEqual([10, 5, 15]);
+});

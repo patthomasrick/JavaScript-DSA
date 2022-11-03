@@ -42,6 +42,18 @@ class BinarySearchTree extends ITree {
         }
     }
 
+    getValue() {
+        return this.#value;
+    }
+
+    getLeft() {
+        return this.#left;
+    }
+
+    getRight() {
+        return this.#right;
+    }
+
     contains(element) {
         return this.get(element) === element;
     }
