@@ -5,8 +5,7 @@ class IList {
     /**
      * Construct a new list.
      */
-    constructor() {
-    }
+    constructor() {}
 
     /**
      * Get the length of the list.

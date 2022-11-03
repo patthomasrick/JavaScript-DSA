@@ -1,18 +1,22 @@
 {
-  "name": "javascript-dsa",
-  "version": "1.0.0",
-  "type": "commonjs",
-  "description": "Implementations of data structures and algorithms in JavaScript.",
-  "main": "index.js",
-  "directories": {
-    "test": "tests"
-  },
-  "scripts": {
-    "test": "jest"
-  },
-  "author": "Patrick Thomas <patrick@patrickwthomas.net>",
-  "license": "ISC",
-  "devDependencies": {
-    "jest": "^29.2.2"
-  }
+    "name": "javascript-dsa",
+    "version": "1.0.0",
+    "type": "commonjs",
+    "description": "Implementations of data structures and algorithms in JavaScript.",
+    "main": "index.js",
+    "directories": {
+        "test": "tests"
+    },
+    "scripts": {
+        "test": "jest"
+    },
+    "author": "Patrick Thomas <patrick@patrickwthomas.net>",
+    "license": "ISC",
+    "devDependencies": {
+        "jest": "^29.2.2"
+    },
+    "prettier": {
+        "tabWidth": 4,
+        "bracketSameLine": true
+    }
 }
